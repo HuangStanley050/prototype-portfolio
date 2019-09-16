@@ -1,0 +1,29 @@
+.about-container {
+  width: 80%;
+  display: flex;
+  margin: 3rem auto;
+  min-height: 50vh;
+  background: var(--secondaryColor);
+}
+
+.photo_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo_wrapper img {
+  width: 400px;
+  height: 300px;
+}
+
+.about__wrapper-text {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+
+.about__wrapper-text p {
+  margin: 1rem 0.5rem;
+  color: var(--textColor);
+}
