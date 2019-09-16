@@ -9,6 +9,12 @@
   align-items: center;
 }
 
+.about-container__skills {
+  justify-content: space-around;
+  flex-direction: flex-start;
+  flex-wrap: wrap;
+}
+
 .photo_wrapper {
   display: flex;
   width: 40%;
@@ -33,4 +39,28 @@
 .about__wrapper-text p {
   margin: 1rem 0.5rem;
   color: var(--textColor);
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 25%;
+  transition: 0.3s;
+  margin: 1rem;
+  background-color: var(--primaryColor);
+  border-radius: 15px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  background-color: var(--primaryColor);
+}
+
+.container i,
+.container p {
+  font-size: 2rem;
 }
