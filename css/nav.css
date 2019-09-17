@@ -5,6 +5,21 @@ nav {
   align-items: center;
 }
 
+.active_link {
+  text-decoration: underline;
+  color: red;
+}
+
+.nav-normal {
+  height: 10vh;
+  background-color: var(--secondaryColor);
+  margin-top: 0;
+}
+
+.nav-normal a i {
+  color: var(--primaryColor);
+}
+
 nav i {
   margin-right: 0.75rem;
 }
