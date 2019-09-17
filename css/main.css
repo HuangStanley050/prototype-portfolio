@@ -3,6 +3,8 @@
 @import "about.css";
 @import "portfolio.css";
 @import "card.css";
+@import "footer.css";
+@import "nav.css";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 * {
@@ -25,17 +27,6 @@
   color: var(--textColor);
 }
 
-.footer-style {
-  text-align: center;
-  margin: 0 0.5rem;
-  color: var(--textColor);
-}
-
-.footer-style a {
-  text-decoration: none;
-  color: var(--textColor);
-}
-
 main {
   min-height: 100vh;
   display: flex;
@@ -43,60 +34,7 @@ main {
   background-color: var(--primaryColor);
 }
 
-nav {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav i {
-  margin-right: 0.75rem;
-}
-
-nav li {
-  list-style: none;
-  margin: 0 2rem;
-}
-
-li a {
-  text-decoration: none;
-  display: block;
-  font-size: 2rem;
-  color: white;
-  transition: 0.75s linear;
-}
-
-li a:hover {
-  color: blue;
-  background-color: #4973e6;
-  border-radius: 15px;
-}
-
-a i {
-  color: var(--secondaryColor);
-}
-
 input:focus,
 textarea:focus {
   outline: none;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  height: 10vh;
-  background-color: var(--secondaryColor);
-}
-
-.footer-wrapper {
-  height: 100%;
-  width: 30vw;
-  display: flex;
-  padding: 1rem;
-  justify-content: space-around;
-}
-
-.footer-wraper > h2 {
-  margin: 0 1rem;
 }
