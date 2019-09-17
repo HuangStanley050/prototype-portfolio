@@ -8,15 +8,42 @@
 .portfolio-container__skills {
   width: 80%;
   margin: 3rem auto;
+  padding: 1rem;
   min-height: 60vh;
   border-radius: 5px;
   display: flex;
   background-color: var(--secondaryColor);
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .portfolio-hero {
   width: 100%;
   min-height: 30vh;
+}
+
+.portfolio-container__skills-category {
+  width: 80%;
+  height: 33.3vh;
+  background-color: var(--primaryColor);
+  margin: 1rem 0;
+}
+
+.header_emphasis {
+  text-decoration: underline;
+}
+
+.project_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  /* background: red; */
+}
+
+.container-card p a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
 }
