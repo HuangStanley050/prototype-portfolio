@@ -2,9 +2,11 @@
 @import "contact.css";
 @import "about.css";
 @import "portfolio.css";
+@import 'resume.css';
 @import "card.css";
 @import "footer.css";
 @import "nav.css";
+@import "button.css";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 * {
