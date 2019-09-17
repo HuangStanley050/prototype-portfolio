@@ -42,7 +42,6 @@
 }
 
 .card {
-  /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   width: 25%;
   transition: 0.3s;
@@ -50,17 +49,20 @@
   background-color: var(--primaryColor);
   border-radius: 15px;
 }
-/* On mouse-over, add a deeper shadow */
+
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
-  background-color: var(--primaryColor);
+  -webkit-animation: flip 1s;
+  animation: flip 2s;
 }
 
-.container i,
-.container p {
+.container-card {
+  padding: 1rem;
+  background-color: var(--primaryColor);
+  text-align: center;
+}
+
+.container-card i,
+.container-card p {
   font-size: 2rem;
 }

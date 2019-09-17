@@ -1,4 +1,4 @@
-.container {
+.container-contact {
   width: 80%;
   margin: 3rem auto;
   border-radius: 5px;
@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.container form {
+.container-contact form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,7 +17,7 @@
   width: 50%;
 }
 
-.container label {
+.container-contact label {
   font-size: 2rem;
   color: var(--textColor);
   display: inline-block;
