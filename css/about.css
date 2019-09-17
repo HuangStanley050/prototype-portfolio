@@ -1,14 +1,3 @@
-.about-container {
-  width: 80%;
-  display: flex;
-  margin: 3rem auto;
-  min-height: 50vh;
-  border-radius: 5px;
-  background: var(--secondaryColor);
-  justify-content: center;
-  align-items: center;
-}
-
 .about-container__skills {
   justify-content: space-around;
   flex-direction: flex-start;

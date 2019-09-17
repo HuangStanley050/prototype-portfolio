@@ -1,0 +1,24 @@
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.blog-container__content {
+  min-height: 80vh;
+  width: 60%;
+  background-color: var(--secondaryColor);
+  padding: 2rem;
+}
+
+.about-container {
+  width: 80%;
+  display: flex;
+  margin: 3rem auto;
+  min-height: 50vh;
+  border-radius: 5px;
+  background: var(--secondaryColor);
+  justify-content: center;
+  align-items: center;
+}

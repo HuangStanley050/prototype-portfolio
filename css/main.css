@@ -7,7 +7,9 @@
 @import "footer.css";
 @import "nav.css";
 @import "button.css";
+@import "singleBlog.css";
 @import "blog.css";
+@import "container.css";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 * {
