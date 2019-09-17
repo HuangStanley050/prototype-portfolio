@@ -17,4 +17,5 @@
   padding: 1rem;
   background-color: var(--primaryColor);
   text-align: center;
+  color: var(--textColor);
 }
