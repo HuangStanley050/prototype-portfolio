@@ -28,6 +28,7 @@
   height: 33.3vh;
   background-color: var(--primaryColor);
   margin: 1rem 0;
+  border-radius: 5px;
 }
 
 .header_emphasis {
