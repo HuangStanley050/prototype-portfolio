@@ -13,7 +13,9 @@
 }
 
 .job-title-style {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
 }
 
 .resume-image-bg {

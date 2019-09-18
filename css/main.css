@@ -44,7 +44,7 @@ input:focus,
 textarea:focus {
   outline: none;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1219px) {
   .hero-text {
     font-size: 2rem;
     margin-top: 2rem;
@@ -63,6 +63,19 @@ textarea:focus {
     font-size: 1.5rem;
   }
 
+  .card {
+    width: 60%;
+  }
+
+  .container-contact form {
+    width: 90%;
+  }
+
+  .container-contact form input,
+  .container-contact form textarea {
+    width: 80%;
+  }
+
   .footer-style i {
     display: none !important;
   }
@@ -75,14 +88,18 @@ textarea:focus {
     flex-direction: column;
   }
 
+  .about__wrapper-text p {
+    font-size: 1.3rem;
+  }
+
   .photo_wrapper {
     width: 100%;
     justify-content: center;
   }
 
   .photo_wrapper img {
-    width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 250px;
   }
 }
 @media (max-width:700px) {
