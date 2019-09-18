@@ -36,10 +36,47 @@ main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  width: 100%;
   background-color: var(--primaryColor);
 }
 
 input:focus,
 textarea:focus {
   outline: none;
+}
+@media (max-width: 1000px) {
+  .hero-text {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  nav {
+    width: 50vw;
+    margin: 1rem auto;
+  }
+
+  nav i {
+    display: none !important;
+  }
+
+  li a {
+    font-size: 1rem;
+  }
+
+  .footer-style i {
+    display: none !important;
+  }
+
+  .footer-style a {
+    font-size: 1rem;
+  }
+}
+@media (max-width:700px) {
+  nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
 }

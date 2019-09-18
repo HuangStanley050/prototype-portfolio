@@ -3,6 +3,11 @@
   justify-content: center;
   align-items: center;
   padding: 3rem;
+  background-image: url("../assets/blogBackground.jpeg");
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .blog-container__content {
