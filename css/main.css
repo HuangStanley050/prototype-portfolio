@@ -169,4 +169,13 @@ textarea:focus {
   .container-blog {
     width: 100%;
   }
+
+  .blog-container__content {
+    width: 100vw;
+  }
+
+  .blog-container__content > p {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+  }
 }
