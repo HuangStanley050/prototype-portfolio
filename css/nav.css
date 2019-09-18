@@ -6,7 +6,7 @@ nav {
 }
 
 .mobile-nav {
-  margin: 0.5rem auto;
+  margin: 0 auto;
   text-align: center;
   display: none;
 }
@@ -17,6 +17,7 @@ nav {
 
 .mobile-nav {
   font-size: 2rem;
+  background-color: var(--secondaryColor);
 }
 
 .mobile-nav i {
