@@ -102,6 +102,11 @@ textarea:focus {
     height: 250px;
   }
 }
+@media (max-width:1000px) {
+  .project_wrapper {
+    flex-wrap: wrap;
+  }
+}
 @media (max-width:700px) {
   .photo_wrapper img,
   nav {
