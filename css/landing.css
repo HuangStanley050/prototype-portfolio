@@ -1,5 +1,4 @@
 .heroImage {
-  /* background-color: pink; */
   background-image: url("../assets/heroImage.jpg");
   /* Set a specific height */
   min-height: 100vh;

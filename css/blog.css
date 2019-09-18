@@ -1,16 +1,3 @@
-.container-blog {
-  width: 80%;
-  display: flex;
-  margin: 3rem auto;
-  min-height: 60vh;
-  border-radius: 5px;
-  background: var(--secondaryColor);
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  flex-wrap: wrap;
-}
-
 .blog-cards {
   border-radius: 25%;
   cursor: pointer;
