@@ -60,7 +60,7 @@ textarea:focus {
   }
 
   li a {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .footer-style i {
@@ -69,6 +69,20 @@ textarea:focus {
 
   .footer-style a {
     font-size: 1rem;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .photo_wrapper {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .photo_wrapper img {
+    width: 250px;
+    height: 150px;
   }
 }
 @media (max-width:700px) {
@@ -82,5 +96,42 @@ textarea:focus {
     align-items: center;
     flex-direction: column;
     min-height: 10vh;
+  }
+
+  .photo_wrapper img {
+    display: none;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .about__wrapper-text {
+    width: 80%;
+  }
+
+  .about__wrapper-text p {
+    font-size: 1.5rem;
+  }
+
+  .portfolio-container-hero {
+    width: 100%;
+  }
+
+  .project_wrapper {
+    flex-direction: column;
+  }
+
+  .portfolio-container-hero {
+    margin: 0 auto;
+  }
+
+  .portfolio-container__skills {
+    margin: 1rem auto;
+    width: 100%;
+  }
+
+  .portfolio-container__skills-category {
+    height: 33.3%;
   }
 }
