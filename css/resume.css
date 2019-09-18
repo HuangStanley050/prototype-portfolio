@@ -1,18 +1,3 @@
-.container-resume {
-  width: 80%;
-  display: flex;
-  margin: 3rem auto;
-  min-height: 60vh;
-  border-radius: 5px;
-  background: var(--secondaryColor);
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  position: relative;
-  z-index: 100;
-}
-
 .container-resume li {
   list-style: none;
   color: var(--textColor);
