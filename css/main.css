@@ -86,6 +86,7 @@ textarea:focus {
   }
 }
 @media (max-width:700px) {
+  .photo_wrapper img,
   nav {
     display: none;
   }
@@ -104,10 +105,7 @@ textarea:focus {
     min-height: 10vh;
   }
 
-  .photo_wrapper img {
-    display: none;
-  }
-
+  .about__wrapper-text,
   .card {
     width: 80%;
   }
@@ -116,20 +114,8 @@ textarea:focus {
     animation: none;
   }
 
-  .about-container {
-    width: 100%;
-  }
-
-  .about__wrapper-text {
-    width: 80%;
-  }
-
   .about__wrapper-text p {
     font-size: 1.5rem;
-  }
-
-  .portfolio-container-hero {
-    width: 100%;
   }
 
   .project_wrapper {
@@ -149,25 +135,18 @@ textarea:focus {
     height: 33.3%;
   }
 
-  .container-resume {
-    width: 100%;
-  }
-
-  .container-contact {
-    width: 100%;
-  }
-
-  .container-contact form {
+  .about-container,
+  .container-blog,
+  .container-contact,
+  .container-contact form,
+  .container-resume,
+  .portfolio-container-hero {
     width: 100%;
   }
 
   .container-contact form input,
   .container-contact form textarea {
     width: 90%;
-  }
-
-  .container-blog {
-    width: 100%;
   }
 
   .blog-container__content {
