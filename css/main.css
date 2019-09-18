@@ -68,7 +68,7 @@ textarea:focus {
   }
 
   .footer-style a {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .about-container {
@@ -90,6 +90,12 @@ textarea:focus {
     display: none;
   }
 
+  .hero-text p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--secondaryColor);
+  }
+
   .mobile-nav {
     display: flex;
     justify-content: center;
@@ -103,7 +109,15 @@ textarea:focus {
   }
 
   .card {
-    width: 90%;
+    width: 80%;
+  }
+
+  .card:hover {
+    animation: none;
+  }
+
+  .about-container {
+    width: 100%;
   }
 
   .about__wrapper-text {
@@ -133,5 +147,26 @@ textarea:focus {
 
   .portfolio-container__skills-category {
     height: 33.3%;
+  }
+
+  .container-resume {
+    width: 100%;
+  }
+
+  .container-contact {
+    width: 100%;
+  }
+
+  .container-contact form {
+    width: 100%;
+  }
+
+  .container-contact form input,
+  .container-contact form textarea {
+    width: 90%;
+  }
+
+  .container-blog {
+    width: 100%;
   }
 }
