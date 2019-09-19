@@ -10,13 +10,13 @@
 @import "singleBlog.css";
 @import "blog.css";
 @import "container.css";
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Oswald', sans-serif;
   line-height: 1.5;
 }
 
