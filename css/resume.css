@@ -18,6 +18,22 @@
   border-bottom-style: solid;
 }
 
+.resume_link {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--textColor);
+  font-size: 1.5rem;
+  margin: 0.5rem auto;
+  background-color: var(--secondaryColor);
+  transition: 0.5s ease-in;
+}
+
+.resume_link:hover {
+  color: orange;
+}
+
 .resume-image-bg {
   position: absolute;
   opacity: 0.2;

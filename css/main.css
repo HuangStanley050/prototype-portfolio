@@ -11,7 +11,7 @@
 @import "blog.css";
 @import "container.css";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
-
+/* default set up plus importing different css components for different pages*/
 * {
   margin: 0;
   padding: 0;
